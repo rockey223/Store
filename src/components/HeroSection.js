@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import {Button} from "../styles/Button";
-import heroimage from "../images/hero.jpg"
+
 
 const HeroSection = ({myData}) => {
     const {name}=myData;
@@ -28,7 +28,7 @@ const HeroSection = ({myData}) => {
 
             <div className="hero-section-image">
                 <figure>
-                    <img src={heroimage} alt="Hero-section" className="img-style" />
+                    <img src="https://i.postimg.cc/vT5dSBJD/123.webp" alt="Hero-section" className="img-style" />
                 </figure>
             </div>
         </div>
